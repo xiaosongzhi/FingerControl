@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CHandStateShow</class>
+ <widget class="QWidget" name="CHandStateShow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="left_Page">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="left_GroupBox">
+         <property name="styleSheet">
+          <string notr="true">#left_GroupBox{border-image: url(:/new/prefix1/source/LHandState/leftHand.png);}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="CLabel" name="littlefingerL_Label">
+          <property name="geometry">
+           <rect>
+            <x>73</x>
+            <y>123</y>
+            <width>115</width>
+            <height>194</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/LHandState/strengthEvaluate/littlefingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="ringfingerL_Label">
+          <property name="geometry">
+           <rect>
+            <x>172</x>
+            <y>43</y>
+            <width>81</width>
+            <height>233</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/LHandState/strengthEvaluate/ringfingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="middlefingerL_Label">
+          <property name="geometry">
+           <rect>
+            <x>228</x>
+            <y>19</y>
+            <width>96</width>
+            <height>255</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/LHandState/strengthEvaluate/middlefingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="forefingerL_Label">
+          <property name="geometry">
+           <rect>
+            <x>283</x>
+            <y>61</y>
+            <width>133</width>
+            <height>268</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/LHandState/strengthEvaluate/forefingerY.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="thumbL_Label">
+          <property name="geometry">
+           <rect>
+            <x>335</x>
+            <y>248</y>
+            <width>150</width>
+            <height>219</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/LHandState/strengthEvaluate/thumbR.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>forefingerL_Label</zorder>
+         <zorder>littlefingerL_Label</zorder>
+         <zorder>ringfingerL_Label</zorder>
+         <zorder>middlefingerL_Label</zorder>
+         <zorder>thumbL_Label</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="right_Page">
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="right_GroupBox">
+         <property name="styleSheet">
+          <string notr="true">#right_GroupBox{border-image: url(:/new/prefix1/source/RHandState/ringhtHand.png);}</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="CLabel" name="thumbR_Label">
+          <property name="geometry">
+           <rect>
+            <x>75</x>
+            <y>248</y>
+            <width>150</width>
+            <height>219</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/RHandState/strengthEvaluate/thumbG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="forefingerR_Label">
+          <property name="geometry">
+           <rect>
+            <x>144</x>
+            <y>61</y>
+            <width>133</width>
+            <height>268</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/RHandState/strengthEvaluate/forefingerR.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="middlefingerR_Label">
+          <property name="geometry">
+           <rect>
+            <x>236</x>
+            <y>19</y>
+            <width>96</width>
+            <height>255</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/RHandState/strengthEvaluate/middlefingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="ringfingerR_Label">
+          <property name="geometry">
+           <rect>
+            <x>307</x>
+            <y>43</y>
+            <width>81</width>
+            <height>223</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/RHandState/strengthEvaluate/ringfingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="CLabel" name="littlefingerR_Label">
+          <property name="geometry">
+           <rect>
+            <x>372</x>
+            <y>123</y>
+            <width>115</width>
+            <height>194</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/source/RHandState/strengthEvaluate/littlefingerG.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <zorder>forefingerR_Label</zorder>
+         <zorder>thumbR_Label</zorder>
+         <zorder>middlefingerR_Label</zorder>
+         <zorder>ringfingerR_Label</zorder>
+         <zorder>littlefingerR_Label</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CLabel</class>
+   <extends>QLabel</extends>
+   <header>clabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

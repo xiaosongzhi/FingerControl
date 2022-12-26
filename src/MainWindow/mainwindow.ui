@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1117</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="title_Widget" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFFFFF;               
+</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,15,1">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,2">
+           <item>
+            <widget class="QLabel" name="portrait_Label">
+             <property name="minimumSize">
+              <size>
+               <width>90</width>
+               <height>90</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QLabel" name="name_Label">
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>22</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>姓名:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="ID_Label">
+               <property name="font">
+                <font>
+                 <family>黑体</family>
+                 <pointsize>22</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>ID号:</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>1565</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="switchUser_Btn">
+           <property name="minimumSize">
+            <size>
+             <width>152</width>
+             <height>68</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>黑体</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius: 10px;
+border: 2px solid #0D9DDB;
+color: #0D9DDB;</string>
+           </property>
+           <property name="text">
+            <string>切换用户</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="font">
+           <font>
+            <family>黑体</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background: #FFFFFF;
+border:none;
+color:#333333;</string>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="shutDown_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>退出</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/quit.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/quitSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/quit.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPushButton" name="evaluation_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>评估</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/recipe.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/recipeSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/recipe.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QPushButton" name="setting_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>设置</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/setup.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/setupSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/setup.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="trainingRecord_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>训练记录</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/history.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/historySelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/history.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="trainingGame_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>游戏</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/scope1.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/scopeSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/scope1.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="treatMode_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>治疗模式</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/quickIn.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/quickInSelected.png</activeoff>
+               <selectedon>:/new/prefix1/release/source/image/leftButton/quickInSelected.png</selectedon>:/new/prefix1/release/source/image/leftButton/quickIn.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QPushButton" name="jointScope_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>220</width>
+               <height>118</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>关节活动范围</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/training.png</normaloff>
+               <normalon>:/new/prefix1/release/source/image/leftButton/trainingSelected.png</normalon>
+               <disabledoff>:/new/prefix1/release/source/image/leftButton/trainingSelected.png</disabledoff>
+               <disabledon>:/new/prefix1/release/source/image/leftButton/setup.png</disabledon>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/trainingSelected.png</activeoff>
+               <selectedon>:/new/prefix1/release/source/image/leftButton/trainingSelected.png</selectedon>:/new/prefix1/release/source/image/leftButton/training.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="styleSheet">
+           <string notr="true">#stackedWidget{background: #F1F5F9;}
+/*background-color: rgb(255, 170, 0);*/</string>
+          </property>
+          <property name="currentIndex">
+           <number>6</number>
+          </property>
+          <widget class="JointMotionScope" name="JointMotionScope_Page"/>
+          <widget class="TreatModeManager" name="TreatMode_Page"/>
+          <widget class="PassiveTraining" name="PassiveTraining_Page"/>
+          <widget class="BoostTraining" name="BoostTraining_Page"/>
+          <widget class="ActiveTraining" name="ActiveTraining_Page"/>
+          <widget class="MemoryTraining" name="MemoryTraining_Page"/>
+          <widget class="TrainingGame" name="TrainingGame_Page"/>
+          <widget class="EvaluationManager" name="Evaluation_Page"/>
+          <widget class="StrengthEvaluation" name="StrengthEvaluation_Page"/>
+          <widget class="StrengthEvaluationResult" name="StrengthEvaluationResult_Page"/>
+          <widget class="MotionScopeEvaluation" name="MotionScopeEvaluation_Page"/>
+          <widget class="MotionScopeEvaluationResult" name="MotionScopeEvaluationResult_Page"/>
+          <widget class="TrainingHistory" name="TrainingRecord_Page"/>
+          <widget class="QWidget" name="setting_Page"/>
+          <widget class="QWidget" name="empty_Page"/>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PassiveTraining</class>
+   <extends>QWidget</extends>
+   <header>passivetraining.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TreatModeManager</class>
+   <extends>QWidget</extends>
+   <header>treatmodemanager.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BoostTraining</class>
+   <extends>QWidget</extends>
+   <header>boosttraining.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ActiveTraining</class>
+   <extends>QWidget</extends>
+   <header>activetraining.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MemoryTraining</class>
+   <extends>QWidget</extends>
+   <header>memorytraining.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TrainingGame</class>
+   <extends>QWidget</extends>
+   <header>traininggame.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>EvaluationManager</class>
+   <extends>QWidget</extends>
+   <header>evaluationmanager.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StrengthEvaluation</class>
+   <extends>QWidget</extends>
+   <header>strengthevaluation.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StrengthEvaluationResult</class>
+   <extends>QWidget</extends>
+   <header>strengthevaluationresult.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MotionScopeEvaluation</class>
+   <extends>QWidget</extends>
+   <header>motionscopeevaluation.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MotionScopeEvaluationResult</class>
+   <extends>QWidget</extends>
+   <header>motionscopeevaluationresult.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>JointMotionScope</class>
+   <extends>QWidget</extends>
+   <header>jointmotionscope.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TrainingHistory</class>
+   <extends>QWidget</extends>
+   <header>traininghistory.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

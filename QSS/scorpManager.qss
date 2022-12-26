@@ -1,0 +1,6 @@
+QLabel#label{font: 22pt "黑体";}
+QLabel#area_Label{font: 40pt "黑体";}
+QLabel#label_3{font: 16pt "黑体";}
+QLabel#label_2{font: 20pt "黑体";}
+#label_4,#label_5{font: 16pt "黑体";}
+#startTest_Btn{font: 16pt "黑体";}

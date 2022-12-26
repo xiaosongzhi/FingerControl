@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CTrainingHand</class>
+ <widget class="QWidget" name="CTrainingHand">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="rightHand_Page">
+      <widget class="QGroupBox" name="right_GroupBox">
+       <property name="geometry">
+        <rect>
+         <x>111</x>
+         <y>56</y>
+         <width>436</width>
+         <height>503</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#right_GroupBox{border-image: url(:/new/prefix1/source/RHandState/trainRightHand.png);}
+</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="CProcessBar" name="finger1R_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>198</x>
+          <y>89</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger4R_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>402</x>
+          <y>160</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger3R_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>338</x>
+          <y>97</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger2R_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>76</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger0R_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>45</x>
+          <y>335</y>
+          <width>126</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="finger0R_Btn">
+       <property name="geometry">
+        <rect>
+         <x>49</x>
+         <y>382</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger1R_Btn">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>40</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger2R_Btn">
+       <property name="geometry">
+        <rect>
+         <x>363</x>
+         <y>9</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger3R_Btn">
+       <property name="geometry">
+        <rect>
+         <x>437</x>
+         <y>46</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger4R_Btn">
+       <property name="geometry">
+        <rect>
+         <x>502</x>
+         <y>113</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="leftHand_Page">
+      <widget class="QGroupBox" name="left_GroupBox">
+       <property name="geometry">
+        <rect>
+         <x>49</x>
+         <y>56</y>
+         <width>436</width>
+         <height>503</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#left_GroupBox{border-image: url(:/new/prefix1/source/LHandState/trainLeftHand.png);}</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="CProcessBar" name="finger4L_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>22</x>
+          <y>160</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger3L_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>86</x>
+          <y>97</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger2L_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>155</x>
+          <y>76</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger1L_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>226</x>
+          <y>89</y>
+          <width>16</width>
+          <height>126</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="CProcessBar" name="finger0L_Widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>265</x>
+          <y>335</y>
+          <width>126</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(85, 170, 0);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="finger0L_Btn">
+       <property name="geometry">
+        <rect>
+         <x>503</x>
+         <y>382</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger1L_Btn">
+       <property name="geometry">
+        <rect>
+         <x>262</x>
+         <y>40</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger2L_Btn">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>9</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger3L_Btn">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>46</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="finger4L_Btn">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>113</y>
+         <width>44</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/source/buttons/generalButton/turnOn.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CProcessBar</class>
+   <extends>QWidget</extends>
+   <header>cprocessbar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CHandScopeWidget</class>
+ <widget class="QWidget" name="CHandScopeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>434</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>434</width>
+    <height>563</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>434</width>
+     <height>563</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="leftHand_Page">
+    <widget class="QGroupBox" name="left_GroupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>434</width>
+       <height>563</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#left_GroupBox{border:none;}
+#left_GroupBox{border-image: url(:/new/prefix1/source/left.png);}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="CProcessBar" name="finger4L_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>159</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 127);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger3L_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>83</x>
+        <y>96</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger2L_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>152</x>
+        <y>75</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger1L_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>223</x>
+        <y>87</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger0L_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>264</x>
+        <y>378</y>
+        <width>126</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LUp4_Btn">
+      <property name="geometry">
+       <rect>
+        <x>17</x>
+        <y>144</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LUp3_Btn">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>81</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LUp2_Btn">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>60</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LUp1_Btn">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>73</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LDown4_Btn">
+      <property name="geometry">
+       <rect>
+        <x>17</x>
+        <y>290</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LDown3_Btn">
+      <property name="geometry">
+       <rect>
+        <x>81</x>
+        <y>227</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LDown2_Btn">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>206</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LDown1_Btn">
+      <property name="geometry">
+       <rect>
+        <x>221</x>
+        <y>219</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LLeft0_Btn">
+      <property name="geometry">
+       <rect>
+        <x>249</x>
+        <y>376</y>
+        <width>10</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/left.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/leftHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="LRight0_Btn">
+      <property name="geometry">
+       <rect>
+        <x>395</x>
+        <y>376</y>
+        <width>10</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/right.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/rightHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="rightHand_Page">
+    <widget class="QGroupBox" name="right_GroupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>434</width>
+       <height>563</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{border:none;}
+QGroupBox{border-image: url(:/new/prefix1/source/right.png);}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="CProcessBar" name="finger1R_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>195</x>
+        <y>88</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger2R_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>266</x>
+        <y>75</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger3R_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>335</x>
+        <y>96</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger4R_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>399</x>
+        <y>159</y>
+        <width>16</width>
+        <height>126</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 0);</string>
+      </property>
+     </widget>
+     <widget class="CProcessBar" name="finger0R_Widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>44</x>
+        <y>378</y>
+        <width>126</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RDown2_Btn">
+      <property name="geometry">
+       <rect>
+        <x>264</x>
+        <y>206</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RUp3_Btn">
+      <property name="geometry">
+       <rect>
+        <x>333</x>
+        <y>81</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RUp2_Btn">
+      <property name="geometry">
+       <rect>
+        <x>264</x>
+        <y>60</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RDown4_Btn">
+      <property name="geometry">
+       <rect>
+        <x>397</x>
+        <y>290</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RDown1_Btn">
+      <property name="geometry">
+       <rect>
+        <x>193</x>
+        <y>219</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RDown3_Btn">
+      <property name="geometry">
+       <rect>
+        <x>333</x>
+        <y>227</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/down.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/downHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RUp1_Btn">
+      <property name="geometry">
+       <rect>
+        <x>193</x>
+        <y>73</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RUp4_Btn">
+      <property name="geometry">
+       <rect>
+        <x>397</x>
+        <y>144</y>
+        <width>20</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/up.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/upHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RRight0_Btn">
+      <property name="geometry">
+       <rect>
+        <x>175</x>
+        <y>376</y>
+        <width>10</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/right.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/rightHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RLeft0_Btn">
+      <property name="geometry">
+       <rect>
+        <x>29</x>
+        <y>376</y>
+        <width>10</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/left.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/arrows/leftHover.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="autoRepeat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CProcessBar</class>
+   <extends>QWidget</extends>
+   <header>cprocessbar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

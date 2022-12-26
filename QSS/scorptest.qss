@@ -1,0 +1,2 @@
+QLabel#label{font: 18pt "黑体";}
+QPushButton#start_Btn,#clear_Btn,#confirm_Btn{font: 16pt "黑体";}

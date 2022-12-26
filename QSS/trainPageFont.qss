@@ -1,0 +1,3 @@
+QRadioButton{font:16pt "黑体";}
+QLabel{font:16pt "黑体";}
+QComboBox{font:16pt "黑体";}

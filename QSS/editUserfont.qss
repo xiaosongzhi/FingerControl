@@ -1,0 +1,7 @@
+QLabel{font: 16pt "黑体";}
+QRadioButton{font: 16pt "黑体";}
+QLineEdit{font: 16pt "黑体";}
+QComboBox{font: 16pt "黑体";}
+QPushButton#delete_Btn,#modify_Btn,#confirm_Btn{font: 20pt "黑体";}
+QPushButton#save_Btn{font: 20pt "黑体";}
+#leftLimp_Btn,#rightLimp_Btn,#allLimp_Btn{font: 16pt "黑体";}

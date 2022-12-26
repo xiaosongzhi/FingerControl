@@ -1,0 +1,3 @@
+QLabel{font:16pt "黑体";}
+QPushButton{font: 16pt "黑体";}
+QLabel#text_Label{font:16pt "黑体";}

@@ -1,0 +1,73 @@
+/*****
+QListWidget{  
+    background:white;  
+    color:black;  
+    border:none;  
+}  
+  
+QListWidget::item{  
+    border:none;  
+    height: 80px;  
+	margin-left:50px;
+}  
+  
+QListWidget::item:hover{  
+    background:rgb(252,240,193)  
+}  
+  
+QListWidget::item:selected{  
+    background:rgb(252,233,161);  
+    color:black;  
+}  
+*****/
+
+QRadioButton::indicator::unchecked {
+width: 32px;
+height: 18px;
+image:url(":/new/prefix1/source/buttons/radio.png");
+position:relative;
+left: 0px;
+right: 5px;
+top: 2px;
+bottom:4px;
+}
+QRadioButton::indicator::checked {
+width: 32px;
+height: 18px;
+image:url(":/new/prefix1/source/buttons/radioChecked.png");
+position:relative;
+left: 0px;
+right: 5px;
+top: 2px;
+bottom:4px;
+}
+
+ /*****
+QScrollBar:vertical {                 
+    background:transparent;  
+    width:9px;  
+    margin: 0px 0px 2px 0px;  
+}  
+  
+QScrollBar::handle:vertical {  
+    background: rgb(195, 195, 195);  
+    min-height: 20px;  
+    border-radius: 3px;  
+}  
+  
+QScrollBar::handle:vertical:hover{  
+    background:rgba(0,0,0,30%);  
+}
+
+QScrollBar::add-line:vertical {  
+    height: 0px;  
+    subcontrol-position: bottom;  
+    subcontrol-origin: margin;  
+}  
+  
+QScrollBar::sub-line:vertical {  
+    height: 0px;  
+    subcontrol-position: top;  
+    subcontrol-origin: margin;  
+}
+*/

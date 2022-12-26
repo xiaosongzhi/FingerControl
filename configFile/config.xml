@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <tcpAddress IP = "192.168.1.20"  port = "8000"></tcpAddress>
+	<udpServerAddress IP = "192.168.1.10"  port = "10000"></udpServerAddress>
+	<udpClientAddress IP = "192.168.1.100"  port = "15000"></udpClientAddress>
+	<serialPort portName = "com8"  baud = "115200" dataBits = "8"  parity = "0" stopBit = "0" flowControl = "0"></serialPort>
+	<dataBase IP = "192.168.1.20"  port = "9000"  userName = "root" password = "root"></dataBase>
+	<communicateType type = "1"></communicateType>
+	<programMode mode = "1"></programMode>
+</config>
+
+<!-- type 0-serialport 1-udp 2-tcp 3-can -->
+<!--  udpSever-上位机  udpClient-下位机 -->  
+<!-- mode 0-debug 1-release -->

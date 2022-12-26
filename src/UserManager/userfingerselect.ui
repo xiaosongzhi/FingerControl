@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserFingerSelect</class>
+ <widget class="QWidget" name="UserFingerSelect">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="hand_GroupBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>160</y>
+     <width>560</width>
+     <height>560</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#hand_GroupBox{border-radius: 8px;
+border: 1px solid #555555;}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="CHandStateShow" name="widget" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>832</x>
+     <y>103</y>
+     <width>405</width>
+     <height>614</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>17</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>手</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="left_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>87</y>
+      <width>141</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+ 
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>左手</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="right_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>271</x>
+      <y>87</y>
+      <width>131</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>右手</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>176</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>手指主动型</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="finger0_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>260</y>
+      <width>161</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>拇指</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="finger1_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>326</y>
+      <width>151</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>食指</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="finger2_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>392</y>
+      <width>161</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>中指</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="finger3_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>458</y>
+      <width>171</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>无名指</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="finger4_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>63</x>
+      <y>524</y>
+      <width>101</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton::indicator {
+    width: 32px;
+    height: 18px;
+
+    
+    position: relative;
+    left: 0px;
+    right: 5px;
+    top: 2px;
+    bottom:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>小指</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="confirm_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1286</x>
+     <y>700</y>
+     <width>164</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CHandStateShow</class>
+   <extends>QWidget</extends>
+   <header>chandstateshow.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

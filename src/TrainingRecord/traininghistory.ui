@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrainingHistory</class>
+ <widget class="QWidget" name="TrainingHistory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1700</width>
+    <height>944</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="previous_Btn">
+   <property name="geometry">
+    <rect>
+     <x>549</x>
+     <y>824</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/left.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/leftHover.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/source/buttons/generalButton/left.png);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1072</x>
+     <y>824</y>
+     <width>80</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-image: url(:/new/prefix1/source/buttons/generalButton/right.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/generalButton/rightHover.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/source/buttons/generalButton/right.png);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page_Label">
+   <property name="geometry">
+    <rect>
+     <x>783</x>
+     <y>840</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1/1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>1620</width>
+     <height>742</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #FFFFFF;
+border-radius: 8px;</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>1331</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget::item{  
+    text-align:right;  
+}</string>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::EditKeyPressed</set>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+    <property name="columnCount">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>130</y>
+      <width>1540</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #D8D8D8;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>108</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:  #E4F4FC;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>时间</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>40</y>
+      <width>108</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:  #E4F4FC;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>时长</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>108</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:  #E4F4FC;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>日期</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>40</y>
+      <width>156</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:  #E4F4FC;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>总结</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>40</y>
+      <width>108</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:  #E4F4FC;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>类型</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="buttons_GroupBox">
+    <property name="geometry">
+     <rect>
+      <x>1410</x>
+      <y>152</y>
+      <width>161</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="view0_Btn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>38</y>
+       <width>112</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>查看</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="view1_Btn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>141</y>
+       <width>112</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>查看</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="view2_Btn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>244</y>
+       <width>112</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>查看</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="view3_Btn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>347</y>
+       <width>112</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>查看</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="view4_Btn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>450</y>
+       <width>112</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>查看</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="printReport_Btn">
+    <property name="geometry">
+     <rect>
+      <x>1416</x>
+      <y>30</y>
+      <width>164</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>112</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+    </property>
+    <property name="text">
+     <string>生成报告</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="tips_GroupBox">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>100</y>
+      <width>298</width>
+      <height>372</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox{border-image: url(:/new/prefix1/source/image/tipsDialog.png);}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="tipConfirm_Btn">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>260</y>
+       <width>164</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>68</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background: #0D9DDB;border-radius: 8px;color:white;}
+QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="time_RadioButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>80</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator::unchecked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioNormal.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}
+QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioSelected.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}</string>
+     </property>
+     <property name="text">
+      <string>时间统计</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="force_RadioButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>130</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator::unchecked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioNormal.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}
+QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioSelected.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}</string>
+     </property>
+     <property name="text">
+      <string>力量评定</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="scope_RadioButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QRadioButton::indicator::unchecked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioNormal.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}
+QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new/prefix1/source/buttons/generalButton/radioSelected.png&quot;);position:relative;left: 0px;right: 5px;top: 2px;bottom:4px;}</string>
+     </property>
+     <property name="text">
+      <string>关节活动度</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
