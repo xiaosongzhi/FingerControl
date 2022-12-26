@@ -166,7 +166,7 @@ typedef enum
     CLOSE_MEMORY_TRANNING_MODE = 0X2302,	//结束记忆训练
     MEMORY_MODE_CTRL_MODE = 0X2303,			//1位置模式，2力的模式
     MEMORY_MODE_HELP_TYPE = 0X2304,			//训练的难易程度
-    MEMORY_MODE_FORCE_TYPE = 0X2305,		//记忆训练力的类型，1伸展力，2屈曲力    
+    MEMORY_MODE_FORCE_TYPE = 0X2305,		//记忆训练力的类型，1伸展力，2屈曲力
     MEMORY_MODE_TRANNING_CYCLE = 0X2306,	//当力超限时，是否继续运行。
     MEMORY_MODE_MOVE_TIPS = 0X2307,         //记忆训练运动提示
     MEMORY_MODE_REACH_TO_DEST = 0X2308,     //回到初始位置
@@ -352,6 +352,12 @@ typedef struct
     int8_t 	stretch;    //伸展力等级 1~3
     int8_t 	controlType;//控制方式 1~趋势  2~位移
 }ST_ControlSet;
+
+typedef struct
+{
+    uint8_t  fingerIndex; //0~5 依次为左拇指、食指、中指、无名指、小指、右拇指
+    uint8_t  force;	  //力量值N
+}ST_SetForceStander;
 
 #pragma pack(pop)//恢复对齐状态
 

@@ -22,6 +22,8 @@ public:
 private slots:
     void slotBtnGroupClicked(int btnId);
 
+    void slotCheckbuttonClicked(int id);
+
     void on_jointScope_Btn_clicked();
 
     void on_treatMode_Btn_clicked();
@@ -37,6 +39,10 @@ private slots:
     void on_shutDown_Btn_clicked();
 
     void on_switchUser_Btn_clicked();
+
+    void on_startCheck_Btn_clicked();
+
+    void on_stopCheck_Btn_clicked();
 
 public slots:
     //切换不同界面
@@ -70,5 +76,7 @@ private:
     bool m_connectState;      //网络连接状态
     bool m_lastConnectState;  //之前的状态
     DisplayWindow *m_displayWindow;
+
+    QButtonGroup *m_checkButtonGroup;
 };
 #endif // MAINWINDOW_H

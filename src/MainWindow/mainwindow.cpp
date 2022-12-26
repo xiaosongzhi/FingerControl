@@ -4,9 +4,9 @@
 #include <QButtonGroup>
 #include "mainwindowpagecontrol.h"
 #include "dataFormate.h"
-#include "controlmaskdialog.h"
+//#include "controlmaskdialog.h"
 #include "ui_mainwindow.h"
-#include "userfingerselect.h"
+//#include "userfingerselect.h"
 #include "currentuserdata.h"
 #include <QDebug>
 #include <QMessageBox>
@@ -26,6 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     , m_connectState(true)
     , m_lastConnectState(true)
     , m_displayWindow(NULL)
+    , m_checkButtonGroup(NULL)
 {
     ui->setupUi(this);
     setWindowIcon(QIcon("64_64.ico"));
@@ -129,12 +130,21 @@ void MainWindow::initButtonGroup()
     m_buttonGroup->setExclusive(true);
     m_buttonGroup->addButton(ui->jointScope_Btn,0);
     m_buttonGroup->addButton(ui->treatMode_Btn,1);
-    m_buttonGroup->addButton(ui->trainingGame_Btn,2);
+//    m_buttonGroup->addButton(ui->trainingGame_Btn,2);
     m_buttonGroup->addButton(ui->evaluation_Btn,3);
     m_buttonGroup->addButton(ui->trainingRecord_Btn,4);
     m_buttonGroup->addButton(ui->setting_Btn,5);
     m_buttonGroup->addButton(ui->shutDown_Btn,6);
 
+    m_checkButtonGroup = new QButtonGroup();
+    m_checkButtonGroup->addButton(ui->thumb_Btn,0);
+    m_checkButtonGroup->addButton(ui->forefinger_Btn,1);
+    m_checkButtonGroup->addButton(ui->midd_Btn,2);
+    m_checkButtonGroup->addButton(ui->ringfinger_Btn,3);
+    m_checkButtonGroup->addButton(ui->little_Btn,4);
+    m_checkButtonGroup->addButton(ui->rightThumb_Btn,5);
+
+    connect(m_checkButtonGroup,&QButtonGroup::idClicked,this,&MainWindow::slotCheckbuttonClicked);
 }
 
 void MainWindow::setBtnsLcok(bool isLock)
@@ -171,6 +181,38 @@ void MainWindow::slotBtnGroupClicked(int btnId)
                                    "QPushButton{color: black;background: white;}");
         }
     }
+}
+
+void MainWindow::slotCheckbuttonClicked(int id)
+{
+    int force = 0;
+    switch(id)
+    {
+    case 0:
+        force = ui->thumb_lineEdit->text().toInt();
+        break;
+    case 1:
+        force = ui->forefinger_lineEdit->text().toInt();
+        break;
+    case 2:
+        force = ui->midd_lineEdit->text().toInt();
+        break;
+    case 3:
+        force = ui->ringfinger_lineEdit->text().toInt();
+        break;
+    case 4:
+        force = ui->little_lineEdit->text().toInt();
+        break;
+    case 5:
+        force = ui->rightThumb_lineEdit->text().toInt();
+        break;
+    }
+
+    ST_SetForceStander st_setForceStander;
+    st_setForceStander.fingerIndex = id;
+    st_setForceStander.force = force;
+
+
 }
 
 void MainWindow::on_jointScope_Btn_clicked()
@@ -514,3 +556,16 @@ void MainWindow::slotWatchSend(QByteArray array)
 {
     m_displayWindow->setText(array);
 }
+
+//开始校准
+void MainWindow::on_startCheck_Btn_clicked()
+{
+
+}
+
+//停止校准
+void MainWindow::on_stopCheck_Btn_clicked()
+{
+
+}
+

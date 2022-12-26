@@ -181,97 +181,7 @@ color:#333333;</string>
            <property name="spacing">
             <number>0</number>
            </property>
-           <item row="6" column="0">
-            <widget class="QPushButton" name="shutDown_Btn">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="font">
-              <font>
-               <family>黑体</family>
-               <pointsize>20</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string>退出</string>
-             </property>
-             <property name="icon">
-              <iconset>
-               <normaloff>:/new/prefix1/release/source/image/leftButton/quit.png</normaloff>
-               <activeoff>:/new/prefix1/release/source/image/leftButton/quitSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/quit.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-            </widget>
-           </item>
            <item row="3" column="0">
-            <widget class="QPushButton" name="evaluation_Btn">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="font">
-              <font>
-               <family>黑体</family>
-               <pointsize>20</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string>评估</string>
-             </property>
-             <property name="icon">
-              <iconset>
-               <normaloff>:/new/prefix1/release/source/image/leftButton/recipe.png</normaloff>
-               <activeoff>:/new/prefix1/release/source/image/leftButton/recipeSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/recipe.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="0">
-            <widget class="QPushButton" name="setting_Btn">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="font">
-              <font>
-               <family>黑体</family>
-               <pointsize>20</pointsize>
-              </font>
-             </property>
-             <property name="text">
-              <string>设置</string>
-             </property>
-             <property name="icon">
-              <iconset>
-               <normaloff>:/new/prefix1/release/source/image/leftButton/setup.png</normaloff>
-               <activeoff>:/new/prefix1/release/source/image/leftButton/setupSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/setup.png</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>32</width>
-               <height>32</height>
-              </size>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
             <widget class="QPushButton" name="trainingRecord_Btn">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -301,8 +211,8 @@ color:#333333;</string>
              </property>
             </widget>
            </item>
-           <item row="2" column="0">
-            <widget class="QPushButton" name="trainingGame_Btn">
+           <item row="5" column="0">
+            <widget class="QPushButton" name="shutDown_Btn">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                <horstretch>0</horstretch>
@@ -316,12 +226,12 @@ color:#333333;</string>
               </font>
              </property>
              <property name="text">
-              <string>游戏</string>
+              <string>退出</string>
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>:/new/prefix1/release/source/image/leftButton/scope1.png</normaloff>
-               <activeoff>:/new/prefix1/release/source/image/leftButton/scopeSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/scope1.png</iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/quit.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/quitSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/quit.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -356,6 +266,66 @@ color:#333333;</string>
                <normaloff>:/new/prefix1/release/source/image/leftButton/quickIn.png</normaloff>
                <activeoff>:/new/prefix1/release/source/image/leftButton/quickInSelected.png</activeoff>
                <selectedon>:/new/prefix1/release/source/image/leftButton/quickInSelected.png</selectedon>:/new/prefix1/release/source/image/leftButton/quickIn.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="setting_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>设置</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/setup.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/setupSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/setup.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="evaluation_Btn">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>评估</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/new/prefix1/release/source/image/leftButton/recipe.png</normaloff>
+               <activeoff>:/new/prefix1/release/source/image/leftButton/recipeSelected.png</activeoff>:/new/prefix1/release/source/image/leftButton/recipe.png</iconset>
              </property>
              <property name="iconSize">
               <size>
@@ -418,7 +388,7 @@ color:#333333;</string>
 /*background-color: rgb(255, 170, 0);*/</string>
           </property>
           <property name="currentIndex">
-           <number>6</number>
+           <number>13</number>
           </property>
           <widget class="JointMotionScope" name="JointMotionScope_Page"/>
           <widget class="TreatModeManager" name="TreatMode_Page"/>
@@ -433,7 +403,407 @@ color:#333333;</string>
           <widget class="MotionScopeEvaluation" name="MotionScopeEvaluation_Page"/>
           <widget class="MotionScopeEvaluationResult" name="MotionScopeEvaluationResult_Page"/>
           <widget class="TrainingHistory" name="TrainingRecord_Page"/>
-          <widget class="QWidget" name="setting_Page"/>
+          <widget class="QWidget" name="setting_Page">
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="geometry">
+             <rect>
+              <x>200</x>
+              <y>80</y>
+              <width>1051</width>
+              <height>691</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>黑体</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background:white;</string>
+            </property>
+            <property name="title">
+             <string>力传感器校准</string>
+            </property>
+            <widget class="QPushButton" name="startCheck_Btn">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>60</y>
+               <width>111</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>开始校准</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="stopCheck_Btn">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>60</y>
+               <width>111</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>停止校准</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>200</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>拇指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>470</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>右拇指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>140</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>手指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>140</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>力量</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="thumb_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>200</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="thumb_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>200</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="rightThumb_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>470</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="rightThumb_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>470</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="forefinger_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>260</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="midd_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>310</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="forefinger_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>260</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>260</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>食指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="midd_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>310</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>310</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>中指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ringfinger_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>360</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="ringfinger_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>360</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>410</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>小指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>360</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>无名指</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="little_Btn">
+             <property name="geometry">
+              <rect>
+               <x>360</x>
+               <y>410</y>
+               <width>93</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>写入</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="little_lineEdit">
+             <property name="geometry">
+              <rect>
+               <x>240</x>
+               <y>410</y>
+               <width>91</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>60</y>
+               <width>331</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>黑体</family>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>以下默认为左手，右拇指为右手</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
           <widget class="QWidget" name="empty_Page"/>
          </widget>
         </item>
