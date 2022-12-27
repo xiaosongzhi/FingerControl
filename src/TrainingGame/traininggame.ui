@@ -51,7 +51,7 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/treatMode/memModeHover.
       <x>-41</x>
       <y>200</y>
       <width>291</width>
-      <height>28</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">

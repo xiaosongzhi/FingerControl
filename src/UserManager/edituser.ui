@@ -59,7 +59,7 @@ border-radius: 8px;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -88,7 +88,7 @@ border: 1px solid #979797;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -124,7 +124,7 @@ border: 1px solid #979797;</string>
      <string notr="true">color:red;</string>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -143,7 +143,7 @@ border: 1px solid #979797;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -170,7 +170,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -194,7 +194,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -216,7 +216,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -238,7 +238,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -263,7 +263,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -284,7 +284,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -306,7 +306,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -328,7 +328,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -352,7 +352,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -380,7 +380,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -399,7 +399,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -421,7 +421,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -442,7 +442,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -464,7 +464,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -488,7 +488,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -512,7 +512,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -553,7 +553,7 @@ font: 26pt &quot;黑体&quot;;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -576,7 +576,7 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -600,7 +600,7 @@ color:white;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -623,7 +623,7 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -645,7 +645,7 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -672,7 +672,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -693,7 +693,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -715,7 +715,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
@@ -737,7 +737,7 @@ border: 1px solid #999999;</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>16</pointsize>
     </font>
    </property>
    <property name="styleSheet">

@@ -25,7 +25,7 @@
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>26</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -462,7 +462,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -484,7 +484,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -506,7 +506,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -597,7 +597,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -619,7 +619,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">

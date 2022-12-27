@@ -59,7 +59,7 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/selectHand/leftHover.pn
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">

@@ -101,7 +101,7 @@ border-radius: 8px;}</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>25</pointsize>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -128,9 +128,9 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
      <property name="geometry">
       <rect>
        <x>350</x>
-       <y>20</y>
+       <y>13</y>
        <width>261</width>
-       <height>41</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="font">

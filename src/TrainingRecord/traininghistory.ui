@@ -564,7 +564,7 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>20</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -593,7 +593,7 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>20</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -622,7 +622,7 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>20</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="styleSheet">

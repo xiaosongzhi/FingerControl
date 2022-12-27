@@ -73,7 +73,7 @@ padding:0 5px;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>16</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -92,7 +92,7 @@ padding:0 5px;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>16</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -158,7 +158,7 @@ padding:0 5px;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>16</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -177,11 +177,11 @@ padding:0 5px;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>16</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
-      <string>分钟</string>
+      <string>min</string>
      </property>
     </widget>
    </widget>
@@ -269,9 +269,9 @@ padding:0 5px;}</string>
      <property name="geometry">
       <rect>
        <x>208</x>
-       <y>30</y>
-       <width>51</width>
-       <height>20</height>
+       <y>29</y>
+       <width>71</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="font">
@@ -631,7 +631,7 @@ padding:0 2px;}</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>17</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -650,7 +650,7 @@ padding:0 2px;}</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>17</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -715,7 +715,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>17</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -734,11 +734,11 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>17</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>分钟</string>
+     <string>min</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="face_GroupBox">
@@ -931,7 +931,7 @@ border: 1px solid #333333;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>15</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -953,7 +953,7 @@ border: 1px solid #333333;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>15</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -975,7 +975,7 @@ border: 1px solid #333333;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>15</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -997,7 +997,7 @@ border: 1px solid #333333;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>15</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1019,7 +1019,7 @@ border: 1px solid #333333;}</string>
      <property name="font">
       <font>
        <family>黑体</family>
-       <pointsize>15</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1078,10 +1078,10 @@ border: 1px solid #333333;}</string>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>30</y>
-     <width>401</width>
-     <height>40</height>
+     <x>50</x>
+     <y>19</y>
+     <width>491</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -1135,7 +1135,7 @@ border: 1px solid #333333;}</string>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -1158,7 +1158,7 @@ QPushButton:hover{background: #1EAACF;border-radius: 8px;color:#333333;}</string
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">

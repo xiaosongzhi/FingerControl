@@ -76,7 +76,7 @@
                <property name="font">
                 <font>
                  <family>黑体</family>
-                 <pointsize>22</pointsize>
+                 <pointsize>20</pointsize>
                 </font>
                </property>
                <property name="styleSheet">
@@ -92,7 +92,7 @@
                <property name="font">
                 <font>
                  <family>黑体</family>
-                 <pointsize>22</pointsize>
+                 <pointsize>20</pointsize>
                 </font>
                </property>
                <property name="styleSheet">
@@ -131,7 +131,7 @@
            <property name="font">
             <font>
              <family>黑体</family>
-             <pointsize>20</pointsize>
+             <pointsize>18</pointsize>
             </font>
            </property>
            <property name="styleSheet">
@@ -388,7 +388,7 @@ color:#333333;</string>
 /*background-color: rgb(255, 170, 0);*/</string>
           </property>
           <property name="currentIndex">
-           <number>13</number>
+           <number>14</number>
           </property>
           <widget class="JointMotionScope" name="JointMotionScope_Page"/>
           <widget class="TreatModeManager" name="TreatMode_Page"/>

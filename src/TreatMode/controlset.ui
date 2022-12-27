@@ -19,13 +19,13 @@
      <x>509</x>
      <y>133</y>
      <width>171</width>
-     <height>30</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="text">
@@ -74,14 +74,14 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/treatMode/displacementH
     <rect>
      <x>700</x>
      <y>230</y>
-     <width>121</width>
+     <width>151</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -103,14 +103,14 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
     <rect>
      <x>700</x>
      <y>286</y>
-     <width>111</width>
+     <width>150</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -132,14 +132,14 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
     <rect>
      <x>700</x>
      <y>346</y>
-     <width>101</width>
+     <width>150</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -161,14 +161,14 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
     <rect>
      <x>700</x>
      <y>406</y>
-     <width>131</width>
+     <width>150</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -190,14 +190,14 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
     <rect>
      <x>700</x>
      <y>466</y>
-     <width>101</width>
+     <width>150</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>20</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -226,7 +226,7 @@ QRadioButton::indicator::checked {width: 32px;height: 18px;image:url(&quot;:/new
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>25</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -341,15 +341,15 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/level/level1Hov
     <property name="geometry">
      <rect>
       <x>-10</x>
-      <y>35</y>
+      <y>25</y>
       <width>181</width>
-      <height>30</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -380,15 +380,15 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/level/level2Hov
     <property name="geometry">
      <rect>
       <x>-1</x>
-      <y>125</y>
+      <y>123</y>
       <width>171</width>
-      <height>30</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -405,7 +405,7 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/level/level2Hov
      <x>810</x>
      <y>190</y>
      <width>61</width>
-     <height>16</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="font">
@@ -427,7 +427,7 @@ QPushButton:hover{border-image: url(:/new/prefix1/source/buttons/level/level2Hov
      <x>700</x>
      <y>190</y>
      <width>61</width>
-     <height>16</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="font">

@@ -25,7 +25,7 @@
    <property name="font">
     <font>
      <family>黑体</family>
-     <pointsize>26</pointsize>
+     <pointsize>22</pointsize>
     </font>
    </property>
    <property name="styleSheet">
@@ -83,7 +83,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>19</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -108,7 +108,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>19</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -179,7 +179,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>19</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -204,7 +204,7 @@ border: 1px solid #0D9DDB;</string>
     <property name="font">
      <font>
       <family>黑体</family>
-      <pointsize>19</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -677,9 +677,9 @@ border: 1px solid #0D9DDB;</string>
     <widget class="QLabel" name="label_22">
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>279</x>
        <y>230</y>
-       <width>40</width>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -691,6 +691,9 @@ border: 1px solid #0D9DDB;</string>
      </property>
      <property name="text">
       <string>握力</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="label_23">
@@ -1166,9 +1169,9 @@ border: 1px solid #0D9DDB;</string>
     <widget class="QLabel" name="label_45">
      <property name="geometry">
       <rect>
-       <x>299</x>
+       <x>279</x>
        <y>230</y>
-       <width>51</width>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -1180,6 +1183,9 @@ border: 1px solid #0D9DDB;</string>
      </property>
      <property name="text">
       <string>张力</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="label_46">
