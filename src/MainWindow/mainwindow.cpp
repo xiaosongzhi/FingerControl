@@ -213,6 +213,13 @@ void MainWindow::slotCheckbuttonClicked(int id)
     st_setForceStander.force = force;
 
 
+    uint16_t cmdId = STANDARDIZATION_VALUE;
+    uint8_t seq = 0;
+    uint8_t myid = 1;
+    QByteArray array;
+    array.resize(sizeof(ST_SetForceStander));
+    memcpy(array.data(),&st_setForceStander,sizeof(st_setForceStander));
+    CCommunicateAPI::getInstance()->sendData(seq,myid,cmdId,array);
 }
 
 void MainWindow::on_jointScope_Btn_clicked()
@@ -547,7 +554,7 @@ void MainWindow::slotReceiveData(QByteArray receiveData)
         m_isInEmergency = true;
         break;
     case SPASMWARNING:
-        qDebug()<<"jingluan";
+
         break;
     }
 }
@@ -560,12 +567,22 @@ void MainWindow::slotWatchSend(QByteArray array)
 //开始校准
 void MainWindow::on_startCheck_Btn_clicked()
 {
-
+    uint16_t cmdId = START_SENSOR_CHECK;
+    uint8_t seq = 0;
+    uint8_t id = 1;
+    QByteArray array;
+    array.resize(0);
+    CCommunicateAPI::getInstance()->sendData(seq,id,cmdId,array);
 }
 
 //停止校准
 void MainWindow::on_stopCheck_Btn_clicked()
 {
-
+    uint16_t cmdId = STOP_SENSOR_CHECK;
+    uint8_t seq = 0;
+    uint8_t id = 1;
+    QByteArray array;
+    array.resize(0);
+    CCommunicateAPI::getInstance()->sendData(seq,id,cmdId,array);
 }
 

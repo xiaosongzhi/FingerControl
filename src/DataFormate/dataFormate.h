@@ -180,6 +180,9 @@ typedef enum
     MOTION_RANG_JUDGE_EXTEND_FORCE = 0x3104,	//伸展力数值
     MOTION_RANG_JUDGE_FLEXION_FORCE =0x3105,    //屈曲力数值
 
+    START_SENSOR_CHECK = 0x4000,                //开始标定力传感器
+    STOP_SENSOR_CHECK = 0x4001,                 //完成标定力传感器
+    STANDARDIZATION_VALUE = 0x4002              //校准数值
 }E_CMDID;
 
 //训练模式
